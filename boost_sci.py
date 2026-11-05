@@ -296,7 +296,7 @@ if __name__ == "__main__":
     if model == "qwen":
         model_str = "Qwen/Qwen2.5-7B-Instruct"
     if model =="olmo":
-        model_str = "allenai/Olmo-3-7B-Instruct-SFT"
+        model_str = "allenai/Olmo-3-7B-Instruct"
 
     balance_grader = same_balanced_equation_olmo if model == "olmo" else same_balanced_equation
 
